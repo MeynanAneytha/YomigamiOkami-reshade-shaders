@@ -7,7 +7,6 @@ The presets have been validated and approved by Yomigami Okami, and the port was
 The presets are not expected to work with any other setups than a pure vanilla ReShade.
 If you applied former GShade files to replace the ones installed through the ReShade installer, they may not work with the expected graphical output, or not work at all.
 
-
 ## Notes on copyrighted content and this repository
 
 This port as been made with only freely redistributable materials from GShade.
@@ -16,6 +15,14 @@ That means some shaders or textures could not be used or included and as such th
 While this repository and the content created by and for Yomigami Okami is under MIT License, please note that shaders in the ``reshade-shaders/Shaders` folder may have their own licensing keeping your from modifying them. 
 
 Nonetheless, as stated just above, every content in this repository may be freely redistributed as is.
+
+## Preview
+
+The presets included in this port are showcased here.
+
+![Presets example light tone skin characters](documentation-images/preset1.png "Presets with lighter skin tone characters")
+
+![Presets example dark tone skin characters](documentation-images/preset2.png "Presets with darker skin tone characters")
 
 
 ## Installation steps
