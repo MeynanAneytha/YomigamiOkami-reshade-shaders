@@ -4,17 +4,17 @@ This repository contains a port for most of [Yomigami Okami](https://twitter.com
 
 The presets have been validated and approved by Yomigami Okami, and the port was made by [Meynan](https://twitter.com/meynan_ffxiv).
 
-The presets are not expected to work with any other setups than a pure vanilla ReShade.
+The presets are not expected to work with any setups other than a pure vanilla ReShade.
 If you applied former GShade files to replace the ones installed through the ReShade installer, they may not work with the expected graphical output, or not work at all.
 
 ## Notes on copyrighted content and this repository
 
-This port as been made with only freely redistributable materials from GShade.
-That means some shaders or textures could not be used or included and as such these presets may differ from their GShade original counterpart.
+This port has been made with only freely redistributable materials from GShade.
+That means some shaders or textures could not be used or included and as such these presets may differ from their GShade original counterparts.
 
 While this repository and the content created by and for Yomigami Okami is under MIT License, please note that shaders in the ``reshade-shaders/Shaders` folder may have their own licensing keeping your from modifying them. 
 
-Nonetheless, as stated just above, every content in this repository may be freely redistributed as is.
+Nonetheless, as stated just above, all content in this repository may be freely redistributed as is.
 
 ## Preview
 
@@ -23,6 +23,14 @@ The presets included in this port are showcased here.
 ![Presets example light tone skin characters](documentation-images/preset1.png "Presets with lighter skin tone characters")
 
 ![Presets example dark tone skin characters](documentation-images/preset2.png "Presets with darker skin tone characters")
+
+
+## Download steps
+
+To download the presets prior to the installation phase, you can go to the [Releases section of this repository](https://github.com/MeynanAneytha/YomigamiOkami-reshade-shaders/releases),
+pick the latest version and download the file named `Source code (zip)` under the _Assets_ menu.
+
+![Download source code](documentation-images/Download-how-to.png "Download source code")
 
 
 ## Installation steps
@@ -61,12 +69,13 @@ Here are a few settings you can change to have ReShade behave a bit more like GS
 * Take the content of the `reshade-shaders` folder and fuse it with your game installation of ReShade.
 * You should now have a `Okami` subfolder in your `reshade-shaders\Shaders` folder, and a `reshade-shaders\Textures`
 
-* Do the same with the `reshade-presets` folder and fust it in your game installation of ReShade.
+* Do the same with the `reshade-presets` folder and fuse it in your game installation of ReShade.
 
 
 ### Launch the game
 
 Once the game is launched and the shaders compiled, provided there were no compilation errors you should have the Okami presets available.
+
 ![Okami presets in ReShade menu](documentation-images/ReShade-menu_Okami-presets.png "Okami presets")
 
 
@@ -77,15 +86,15 @@ Once the game is launched and the shaders compiled, provided there were no compi
 
 ## Support
 
-No support will be provided for these presets. The licensing permit everyone and anyone to just adapt the presets to their need and specific ReShade setup, as many different flavours are already out there in the wild.
+No support will be provided for these presets. The licensing permits everyone and anyone to adapt the presets to their needs and specific ReShade setups, as many different flavours are already out there in the wild.
 
 See the next section for common issues that may arise and can be easily fixed.
 
 ## Troubleshooting
 
-* I can see multiple times the same shader enabled for the preset
+* I can see the same shader enabled multiple times for the preset
 
-    > This probably means you already have said shader file somewhere else in your installation. One of the most common occurence of this issue would be the `KeepUI.fx` file coming from GShade.
+    > This probably means you already have said shader file somewhere else in your installation. One of the most common occurences of this issue would be the `KeepUI.fx` file coming from GShade.
     > To solve this, simply choose which one you want to keep and rename or delete the other one.
 
 * Other GShade presets don't work with this port
