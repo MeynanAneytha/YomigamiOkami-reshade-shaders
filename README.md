@@ -7,12 +7,14 @@ The presets have been validated and approved by Yomigami Okami, and the port was
 The presets are not expected to work with any setups other than a pure vanilla ReShade.
 If you applied former GShade files to replace the ones installed through the ReShade installer, they may not work with the expected graphical output, or not work at all.
 
+The GShade original presets can be found [here](https://github.com/MeynanAneytha/YomigamiOkami-reshade-shaders/tree/gshade).
+
 ## Notes on copyrighted content and this repository
 
 This port has been made with only freely redistributable materials from GShade.
 That means some shaders or textures could not be used or included and as such these presets may differ from their GShade original counterparts.
 
-While this repository and the content created by and for Yomigami Okami is under MIT License, please note that shaders in the ``reshade-shaders/Shaders` folder may have their own licensing keeping your from modifying them. 
+While this repository and the content created by and for Yomigami Okami is under MIT License, please note that shaders in the ``reshade-shaders/Shaders` folder may have their own licensing keeping you from modifying them. 
 
 Nonetheless, as stated just above, all content in this repository may be freely redistributed as is.
 
@@ -52,7 +54,7 @@ pick the latest version and download the file named `Source code (zip)` under th
 
 ![ReShade installer package selection](documentation-images/ReShade-install_package-selection.png "ReShade package selection")
 
-That's it, the first step to get ReShade working is complete.
+That's it, the first step to get ReShade to work is complete.
 
 ### Setting up ReShade to behave more like GShade (optional)
 
@@ -60,8 +62,8 @@ Here are a few settings you can change to have ReShade behave a bit more like GS
 
 * __Overlay key__: change it from `Home` to anything you had in GShade, like `Shift + F2`
 * __Effect key__: set it to whatever key you fancy, like `Shift + F3`
-* __Input processing__: in that dropdown menu, select `Block input when cursor is on overlay`
-* __Effect search path__: either add manually all shaders subfolders (including the Okami one you'll be installing) or remove all but one and use the following syntax to take every subfolder into account `.\reshade-shaders\Shaders\**`
+* __Input processing__: in that drop-down menu, select `Block input when cursor is on overlay`
+* __Effect search path__: either manually add all shaders' subfolders (including the Okami one you'll be installing) or remove all but one and use the following syntax to take every subfolder into account `.\reshade-shaders\Shaders\**`
 * __Texture search path__: change the path to be `.\reshade-shaders\Textures\**`
 
 ### Install Okami presets' files
@@ -94,7 +96,7 @@ See the next section for common issues that may arise and can be easily fixed.
 
 * I can see the same shader enabled multiple times for the preset
 
-    > This probably means you already have said shader file somewhere else in your installation. One of the most common occurences of this issue would be the `KeepUI.fx` file coming from GShade.
+    > This probably means you already have said shader file somewhere else in your installation. One of the most common occurrences of this issue would be the `KeepUI.fx` file coming from GShade.
     > To solve this, simply choose which one you want to keep and rename or delete the other one.
 
 * Other GShade presets don't work with this port
